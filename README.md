@@ -1,5 +1,5 @@
-# Joplin Plugin
+# joplin-plugin-revnav
 
-This is your new Joplin plugin. It is suggested that you use this README file to document your plugin.
+Sometimes when I edit or view a note, the notebooks tree is folded by accident, I don't know what notebook the note belongs to!
 
-For information on how to build or publish the plugin, please see [GENERATOR_DOC.md](./GENERATOR_DOC.md)
+So I write this plugin to locate the notebook tree node for current note, that's it.
