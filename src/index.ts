@@ -13,6 +13,7 @@ joplin.plugins.register({
             execute: async () => {
                 const note = await joplin.workspace.selectedNote();
                 await joplin.commands.execute("openNote", note.id);
+                await joplin.commands.execute('focusElementSideBar')
             },
         })
 
